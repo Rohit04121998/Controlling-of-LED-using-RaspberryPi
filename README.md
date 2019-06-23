@@ -7,7 +7,7 @@
   <p align="center"><img src="raspberry-pi-circuit.jpg" alt="Circuit Diagram" width="400" height="350" /></p>
   
   
-  The python code is pretty simple for the required functionality. The below code are of importace for the GPIO pins to be written on or to be read from them.
+  The python code is pretty simple for the required functionality. The following pieces of code are of importace for the GPIO pins to be written on or to be read from them.
       
     import RPi.GPIO as GPIO
 The above code imports the Raspberry Pi Input Output Library as GPIO.     
@@ -15,9 +15,9 @@ The above code imports the Raspberry Pi Input Output Library as GPIO.
 
 
     GPIO.setmode(GPIO.BOARD)
-And this statement sets the GPIO type to **BOARD** i.e physical numbering system and
+This statement sets the GPIO type to **BOARD** i.e physical numbering system and
 
 
 
       GPIO.cleanup()
-cleans up all the ports used. But be very clear that this only affects the ports that have been set in the current program. The rest of the program seems to be self eplanatory with only if-else and print statements.
+This statement cleans up all the ports used. But be very clear that this only affects the ports that have been set in the current program. The rest of the program seems to be self eplanatory with only if-else and print statements.
